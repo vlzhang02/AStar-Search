@@ -1,0 +1,27 @@
+******************************************************************************
+* HW01: A* Search NonOptimized Version
+* CS131 Summer 2022
+* README
+* Author: Valerie Zhang vzhang02
+******************************************************************************
+
+Program Purpose:
+----------------
+    The purpose of this program is to take in a filename of cities and find the 
+    shortest path between two cities entered by the client using A-star search. 
+
+    *This program is written in C++.
+
+Compile/run:
+-----------
+    Compile using:
+        make 
+    Run executable with:
+        ./astar_search filename
+
+Notes:
+------
+    - for longer searches(ie. New York to London), there is some wait time 
+      between when the search information is printed and when the program 
+      prompts to search again or quit, this is the program reseting itself to 
+      prepare for a new search
